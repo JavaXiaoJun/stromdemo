@@ -25,7 +25,7 @@ public class KafkaWindowRollingTest {
 	 * 如果要每次运行都从头开始消费可以通过配置实现。
 	 */
 	 public static void main(String[] args) throws Exception {
-		    String zks = "10.16.46.174:2181";
+		    String zks = "localhost:2181";
 	        String topic = "leostormtest";
 	        String zkRoot = "/kafka-stormtest-1";
 	        BrokerHosts brokerHosts = new ZkHosts(zks);
